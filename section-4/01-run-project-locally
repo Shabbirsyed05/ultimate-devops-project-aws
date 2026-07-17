@@ -5,3 +5,5 @@ In this lecture we will use the `docker compose` which is installed as part of `
 Just go to the directory of cloned repo and run `docker compose up`.
 
 Video of the lecture is self explanatory.
+
+increase the volume from 8 gb to 30 gb for the instance
