@@ -1,3 +1,27 @@
+### preview by me:
+### Docker compose
+yml
+``` 
+ services:
+   ad:
+   product-catalogue:
+   recommendation:
+
+networks:
+
+volumes:
+```
+Context in AD services
+```
+Services:
+ AD:
+   image:  pull/present locally
+   build:
+      dockerfile
+   Environment:
+   depends_on:
+    - flag-d
+```
 # Docker compose Overview in simple words
 
 ## **1. Services**  
