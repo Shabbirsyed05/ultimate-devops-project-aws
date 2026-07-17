@@ -6,10 +6,10 @@ Just go to the directory of cloned repo and run `docker compose up`.
 
 Video of the lecture is self explanatory.
 
-git clone url
-cd name
+git clone https://github.com/iam-veeramalla/ultimate-devops-project-demo.git
+cd ultimate-devops-project-demo
 docker compose up
-increase the volume from 8 gb to 30 gb for the instance
+increase the volume from 8 gb to 30 gb for the instance (wait till it says ok)
 
 lsblk
 sudo apt install cloud-guest-utils
