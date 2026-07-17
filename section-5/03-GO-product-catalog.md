@@ -1,3 +1,8 @@
+preview by me
+for downloading binaries from go.mod
+1) go mod download
+2) go build -o filename . (output the filename (-o) )
+
 # Containerization of a Go based microservice
 
 ## **Stage 1: Build Stage (Builder Image)**  
