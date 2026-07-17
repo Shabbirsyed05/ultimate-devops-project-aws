@@ -1,23 +1,25 @@
 # Containerization of a Java based microservice
 
 - Here are the steps that are involved in containerizing our Java based microservice. Same steps are also followed in the video.
-
+##### preview by me
+```
  sudo apt install openjdk-21-jre-headless
- ./gradlew
+./gradlew
   - if no presentions then run
       chmod +x ./gradlew
-./gradlew installDist (statrs gradel daemon, install dependencies, compile, build)
+ ./gradlew installDist (statrs gradel daemon, install dependencies, compile, build)
 ls -ltr (its created build directory)
 ls -ltr ./build/install/opentelemetry-demo-ad/bin/Ad
 ls -ltr ./build/install/opentelemetry-demo-ad/bin/Ad(here u cansee ad.bat also)
 export AD_PORT=9099
 export FEATURE_FLAG_GRPC_SERVICE_ADDR=featureflagservice:50053
 ./build/install/opentelemetry-demo-ad/bin/Ad
-
+```
+```
 after docker file is created.
 docker build -t shabbirsyed103/adservice:v1 .
 docker run shabbirsyed103/adservice:v1
-
+```
 # **Explanation of the Multi-Stage Dockerfile for a Java Microservice (Using Gradle)**  
 
 ## **Stage 1: Build Stage (Builder Image)**  
