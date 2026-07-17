@@ -6,4 +6,16 @@ Just go to the directory of cloned repo and run `docker compose up`.
 
 Video of the lecture is self explanatory.
 
+git clone url
+cd name
+docker compose up
 increase the volume from 8 gb to 30 gb for the instance
+
+lsblk
+sudo apt install cloud-guest-utils
+# here we are selecting /dev/xvda1 because its in /(root directory mounted, which we want to mounted is also on /dev/xvda1)
+sudo growpart /dev/xvda 1
+lsblk
+sudo resize2fs /dev/xvda1
+df -h
+docker compose up -d
