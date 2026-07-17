@@ -33,3 +33,7 @@ sudo docker run hello-world
 ```
 
 **Note: If you are planning to install Docker on any other distributions of linux or other operating systems like Windows, please follow the official documentation for steps.**
+sudo docker ps
+sudo usermod -aG docker ubuntu
+logout and login back
+docker ps
