@@ -1,3 +1,7 @@
+aws eks update-kubeconfig --region us-west-2 --name my-eks-cluster
+from the ec2 server (t2.large)
+kubectl apply -f complete-deploy.yaml 
+
 # How to setup alb add on
 
 ##  Setup OIDC Connector
