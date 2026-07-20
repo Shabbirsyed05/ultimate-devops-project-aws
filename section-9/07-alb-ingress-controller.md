@@ -1,3 +1,13 @@
+```
+kubectl get svc | grep frontendproxy
+kubectl edit svc frontendproxy (change clusterip to loadbalancer)
+kubectl get svc opentelemetry-demo-frontendproxy
+copy external-ip:8080 
+```
+```
+eksctl version
+kubectl config current-context
+```
 # How to setup alb add on
 
 ##  Setup OIDC Connector
